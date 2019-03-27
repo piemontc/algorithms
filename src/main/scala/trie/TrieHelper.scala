@@ -3,7 +3,7 @@ package com.piemonte.chris.trie
 import scala.collection.mutable.ListBuffer
 import com.piemonte.chris.models.Node
 
-object TrieHelper {
+trait TrieHelper {
 
   def insertNodeAtIndex(parent: Node, index: Int, value: Char, isEnd: Boolean): Unit = {
     parent.children(index) = Some(Node(value = Some(value), endOfWord = isEnd))

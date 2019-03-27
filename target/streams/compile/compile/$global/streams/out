@@ -1,6 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/Driver.scala:7:18: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Array[String][0m
-[0m[[0m[31merror[0m] [0m[0m required: Boolean[0m
-[0m[[0m[31merror[0m] [0m[0m  val query = if(args) args(0) else ""[0m
-[0m[[0m[31merror[0m] [0m[0m                 ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

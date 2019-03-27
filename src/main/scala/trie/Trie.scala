@@ -1,6 +1,6 @@
 package com.piemonte.chris.trie
 
-import com.piemonte.chris.models.Node
+import com.piemonte.chris.trie.models.Node
 
 class Trie extends TrieHelper {
 

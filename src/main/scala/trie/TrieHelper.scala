@@ -1,7 +1,7 @@
 package com.piemonte.chris.trie
 
 import scala.collection.mutable.ListBuffer
-import com.piemonte.chris.models.Node
+import com.piemonte.chris.trie.models.Node
 
 trait TrieHelper {
 

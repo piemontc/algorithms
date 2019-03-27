@@ -1,2 +1,49 @@
-[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning (since 2.11.0); re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/Driver.scala:6:14: not found: value Node[0m
+[0m[[0m[31merror[0m] [0m[0m  val root = Node(value = None, endOfWord = false)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/Driver.scala:6:19: not found: value value[0m
+[0m[[0m[31merror[0m] [0m[0m  val root = Node(value = None, endOfWord = false)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/Driver.scala:6:33: not found: value endOfWord[0m
+[0m[[0m[31merror[0m] [0m[0m  val root = Node(value = None, endOfWord = false)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/Trie.scala:3:32: object models is not a member of package com.piemonte.chris.trie[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.piemonte.chris.trie.models.Node[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/Trie.scala:7:45: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m  def insertWord(root: Node, word: String): Node = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/Trie.scala:7:24: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m  def insertWord(root: Node, word: String): Node = {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/Trie.scala:22:20: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m  def search(root: Node, word: String): Either[List[String], String] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/TrieHelper.scala:22:31: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m  def getValueAtIndex(parent: Node, index: Int): Option[Char] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/TrieHelper.scala:7:33: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m  def insertNodeAtIndex(parent: Node, index: Int, value: Char, isEnd: Boolean): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/Trie.scala:24:25: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m    var endNode: Option[Node] = if(wordLower.length > 0) Some(root) else None[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/TrieHelper.scala:35:64: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m  def getNodeAtIndex(parent: Option[Node], index: Int): Option[Node] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/TrieHelper.scala:35:37: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m  def getNodeAtIndex(parent: Option[Node], index: Int): Option[Node] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/TrieHelper.scala:11:27: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m  def traverseNodes(node: Node, prefix: String): List[String] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/TrieHelper.scala:39:41: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m  def getPresentNodes(node: Node): List[Node] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/TrieHelper.scala:39:29: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m  def getPresentNodes(node: Node): List[Node] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/TrieHelper.scala:40:34: not found: type Node[0m
+[0m[[0m[31merror[0m] [0m[0m    val nodes = ListBuffer.empty[Node][0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m16 errors found[0m

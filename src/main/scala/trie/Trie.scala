@@ -25,15 +25,6 @@ class Trie extends TrieHelper {
     
     wordLower.map(letter => endNode = getNodeAtIndex(endNode, getIndex(letter)))
 
-    Left(traverseNodes(endNode.getOrElse(return Right("nomatch")), wordLower))
-  }
-
-  def displayResults(r: Either[List[String],String]): Unit = {
-    val results = r.left.getOrElse(r.right.getOrElse("Sorry, something went wrong"))
-
-    results match {
-      case x: String => println(x)
-      case _ => for(w <- results.asInstanceOf[List[String]]) println(w)
-    }
+    Left(traverseNodes(endNode.getOrElse(return Right("no match")), wordLower))
   }
 }

@@ -1,0 +1,1 @@
+scalac -bootclasspath /Users/chrispiemonte/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar -classpath /Users/chrispiemonte/Documents/projects/scala/algorithms/target/scala-2.12/classes /Users/chrispiemonte/Documents/projects/scala/algorithms/src/main/scala/trie/Driver.scala
